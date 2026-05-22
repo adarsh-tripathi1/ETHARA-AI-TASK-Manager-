@@ -391,6 +391,31 @@ This project demonstrates:
 
 ---
 
-#  License
+## 👨‍💻 Author
 
-This project was built for learning, portfolio showcase, and technical assessment purposes.
+### Adarash Tripathi
+
+Full Stack Developer | AIML Enthusiast | Backend & System Design Learner
+
+* Passionate about building scalable web applications and solving real-world problems through technology.
+* Interested in Full Stack Development, Artificial Intelligence, and modern cloud-based architectures.
+* Focused on writing clean backend services, secure APIs, and responsive frontend experiences.
+
+### Connect
+
+* GitHub: `https://github.com/adarsh-tripathi1`
+* LinkedIn: `https://www.linkedin.com/in/adarsh-tripathi-47a06024a/`
+
+
+---
+
+## 🌟 Acknowledgements
+
+Special thanks to all mentors, peers, and open-source communities whose resources and guidance helped during the development and deployment of this project.
+
+---
+
+## 📌 Project Status
+
+The project is actively maintained and continuously improved with new features, performance optimizations, and better collaboration capabilities.
+
