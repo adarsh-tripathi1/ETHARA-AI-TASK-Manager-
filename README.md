@@ -7,7 +7,7 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-## 🚀 Live Application
+##  Live Application
 
 * Frontend:
   [TeamFlow Frontend](https://ethara-ai-team-task-manager-production-e5ab.up.railway.app?utm_source=chatgpt.com)
@@ -17,9 +17,9 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-# ✨ Core Highlights
+#  Core Highlights
 
-### 🔐 Secure Authentication System
+###  Secure Authentication System
 
 * User Registration & Login
 * JWT Access Token Authentication
@@ -31,7 +31,7 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-### 👥 Role-Based Workspace Control
+###  Role-Based Workspace Control
 
 #### Admin Capabilities
 
@@ -50,7 +50,7 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-# 📌 Project Management
+#  Project Management
 
 * Create multiple projects
 * Add detailed project descriptions
@@ -60,7 +60,7 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-# ✅ Task Management System
+#  Task Management System
 
 ### Task Creation & Assignment
 
@@ -90,7 +90,7 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-# 📊 Dashboard & Workspace Insights
+#  Dashboard & Workspace Insights
 
 * Real-time task statistics
 * Pending vs completed task tracking
@@ -100,20 +100,19 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-# 🎨 User Experience
+#  User Experience
 
 * Modern responsive interface
 * Dark UI theme
 * Optimized mobile responsiveness
 * Toast notifications
 * Interactive modal handling
-* Smooth loading states
 * Accessible keyboard interactions
 * Clean component-based architecture
 
 ---
 
-# 🛠️ Technology Stack
+#  Technology Stack
 
 ## Frontend
 
@@ -129,7 +128,6 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 * Node.js
 * Express.js
 * TypeScript
-* Prisma ORM
 
 ## Database
 
@@ -142,7 +140,7 @@ The platform enables teams to organize projects efficiently, manage deadlines, d
 
 ---
 
-# 🧩 System Architecture
+#  System Architecture
 
 ```text
 Client (React + TypeScript)
@@ -165,7 +163,7 @@ PostgreSQL Database
 
 ---
 
-# 🔄 Application Workflow
+#  Application Workflow
 
 ```text
 User Login/Register
@@ -188,7 +186,7 @@ Real-Time Progress Tracking
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```bash
 workspace-manager/
@@ -220,7 +218,7 @@ workspace-manager/
 
 ---
 
-# ⚙️ Environment Configuration
+#  Environment Configuration
 
 ## Backend `.env`
 
@@ -246,12 +244,12 @@ VITE_API_URL=your_backend_url/api
 
 ---
 
-# 🧪 Local Development Setup
+#  Local Development Setup
 
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/workspace-manager.git
+git clone https://github.com/adarsh-tripathi1/ETHARA-AI-TASK-Manager-.git
 ```
 
 ---
@@ -300,7 +298,7 @@ http://localhost:5173
 
 ---
 
-# ☁️ Deployment
+#  Deployment
 
 ## Frontend Hosting
 
@@ -318,7 +316,7 @@ http://localhost:5173
 
 ---
 
-# 🔌 REST API Endpoints
+#  REST API Endpoints
 
 ## Authentication
 
@@ -353,7 +351,7 @@ DELETE   /api/tasks/:id
 
 ---
 
-# 🔒 Security & Validation
+#  Security & Validation
 
 * Zod-based request validation
 * JWT authorization middleware
@@ -365,7 +363,7 @@ DELETE   /api/tasks/:id
 
 ---
 
-# 📈 Planned Enhancements
+#  Planned Enhancements
 
 * Team invitation system
 * Real-time collaboration
@@ -378,7 +376,7 @@ DELETE   /api/tasks/:id
 
 ---
 
-# 👨‍💻 Developer Focus
+#  Developer Focus
 
 This project demonstrates:
 
@@ -393,6 +391,6 @@ This project demonstrates:
 
 ---
 
-# 📄 License
+#  License
 
 This project was built for learning, portfolio showcase, and technical assessment purposes.
