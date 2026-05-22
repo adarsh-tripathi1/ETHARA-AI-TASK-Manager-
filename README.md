@@ -391,9 +391,9 @@ This project demonstrates:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-### Adarash Tripathi
+### Adarsh Tripathi
 
 Full Stack Developer | AIML Enthusiast | Backend & System Design Learner
 
@@ -409,13 +409,13 @@ Full Stack Developer | AIML Enthusiast | Backend & System Design Learner
 
 ---
 
-## 🌟 Acknowledgements
+##  Acknowledgements
 
 Special thanks to all mentors, peers, and open-source communities whose resources and guidance helped during the development and deployment of this project.
 
 ---
 
-## 📌 Project Status
+##  Project Status
 
 The project is actively maintained and continuously improved with new features, performance optimizations, and better collaboration capabilities.
 
