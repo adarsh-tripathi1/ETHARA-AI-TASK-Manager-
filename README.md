@@ -1,112 +1,127 @@
-# Ethara AI Team Task Manager
+# TeamFlow — Smart Workspace & Task Collaboration Platform
 
-Ethara AI Team Task Manager is a full-stack team collaboration and task management platform designed for modern teams to organize projects, assign tasks, track progress, and manage workflows efficiently.
+A scalable full-stack workspace management platform built to simplify how teams plan projects, assign responsibilities, and monitor execution in real time.
+Designed with a clean developer-first architecture, secure authentication flow, and an intuitive UI, the application focuses on productivity, collaboration, and performance.
 
-The application provides secure authentication, role-based access control, project management, task assignment, progress tracking, overdue monitoring, and a premium responsive user interface.
-
----
-
-## Live Demo
-
-**Frontend URL:**
-`ethara-ai-team-task-manager-production-e5ab.up.railway.app`
-
-**Backend API URL:**
-`ethara-ai-task-manager-production-2159.up.railway.app`
+The platform enables teams to organize projects efficiently, manage deadlines, distribute work across members, and maintain clear visibility of ongoing progress — all from a single workspace dashboard.
 
 ---
 
-# Features
+## 🚀 Live Application
 
-## Authentication & Security
+* Frontend:
+  [TeamFlow Frontend](https://ethara-ai-team-task-manager-production-e5ab.up.railway.app?utm_source=chatgpt.com)
 
-* User Signup & Login
-* JWT-based Authentication
-* Password Hashing using bcrypt
-* Protected Routes
-* Session Persistence
-* Automatic Unauthorized Session Handling
+* Backend API:
+  [TeamFlow Backend API](https://ethara-ai-task-manager-production-2159.up.railway.app?utm_source=chatgpt.com)
 
 ---
 
-## Role-Based Access Control (RBAC)
+# ✨ Core Highlights
 
-### Admin
+### 🔐 Secure Authentication System
 
-* Create Projects
-* Update Projects
-* Delete Projects
-* Create Tasks
-* Assign Tasks to Members
-* Manage Team Workflow
-
-### Member
-
-* View Assigned Projects
-* Update Task Status
-* Track Work Progress
+* User Registration & Login
+* JWT Access Token Authentication
+* Password Encryption with bcrypt
+* Persistent Login Sessions
+* Route Protection Middleware
+* Unauthorized Access Handling
+* Secure API Communication
 
 ---
 
-## Project Management
+### 👥 Role-Based Workspace Control
 
-* Create and Manage Projects
-* Project Description Support
-* Project Ownership Tracking
-* Responsive Project Dashboard
+#### Admin Capabilities
 
----
+* Create and manage projects
+* Assign tasks to team members
+* Edit project workflows
+* Monitor task completion
+* Manage overall workspace activity
 
-## Task Management
+#### Team Member Access
 
-* Create Tasks
-* Assign Tasks to Team Members
-* Task Priorities
-
-  * Low
-  * Medium
-  * High
-* Task Status Workflow
-
-  * Todo
-  * In Progress
-  * Review
-  * Done
-* Due Date Management
-* Overdue Task Detection
+* View assigned projects
+* Update task progress
+* Change work status
+* Track pending and completed tasks
 
 ---
 
-## Dashboard & Analytics
+# 📌 Project Management
 
-* Task Statistics
-* Overdue Task Indicators
-* Real-Time Status Updates
-* Workspace Overview
-
----
-
-## UI & User Experience
-
-* Modern Dark-Themed Interface
-* Responsive Design
-* Toast Notifications
-* Keyboard Accessibility
-* Modal Close Handling
-* Loading States
-* Smooth User Experience
+* Create multiple projects
+* Add detailed project descriptions
+* Track ownership and responsibilities
+* Responsive project workspace
+* Centralized project overview
 
 ---
 
-# Tech Stack
+# ✅ Task Management System
+
+### Task Creation & Assignment
+
+* Assign tasks to specific members
+* Add deadlines and priorities
+* Manage project workflows efficiently
+
+### Priority Levels
+
+* Low
+* Medium
+* High
+
+### Task Lifecycle
+
+* Todo
+* In Progress
+* Under Review
+* Completed
+
+### Productivity Utilities
+
+* Deadline tracking
+* Overdue task alerts
+* Status-based filtering
+* Progress monitoring
+
+---
+
+# 📊 Dashboard & Workspace Insights
+
+* Real-time task statistics
+* Pending vs completed task tracking
+* Overdue task indicators
+* Workspace activity overview
+* Team progress visibility
+
+---
+
+# 🎨 User Experience
+
+* Modern responsive interface
+* Dark UI theme
+* Optimized mobile responsiveness
+* Toast notifications
+* Interactive modal handling
+* Smooth loading states
+* Accessible keyboard interactions
+* Clean component-based architecture
+
+---
+
+# 🛠️ Technology Stack
 
 ## Frontend
 
-* React
+* React.js
 * TypeScript
 * Vite
 * Tailwind CSS
-* React Router
+* React Router DOM
 * Context API
 
 ## Backend
@@ -115,43 +130,89 @@ The application provides secure authentication, role-based access control, proje
 * Express.js
 * TypeScript
 * Prisma ORM
-* PostgreSQL
 
 ## Database
 
-* Neon PostgreSQL
+* PostgreSQL
+* Neon Database
 
-## Deployment
+## Deployment & Hosting
 
 * Railway
 
 ---
 
-# Folder Structure
+# 🧩 System Architecture
+
+```text
+Client (React + TypeScript)
+        │
+        ▼
+REST API Layer (Express.js)
+        │
+        ▼
+Authentication Middleware (JWT)
+        │
+        ▼
+Business Logic & Services
+        │
+        ▼
+Prisma ORM
+        │
+        ▼
+PostgreSQL Database
+```
+
+---
+
+# 🔄 Application Workflow
+
+```text
+User Login/Register
+        │
+        ▼
+JWT Token Generated
+        │
+        ▼
+Protected Dashboard Access
+        │
+        ▼
+Project Creation / Task Assignment
+        │
+        ▼
+Team Members Update Status
+        │
+        ▼
+Real-Time Progress Tracking
+```
+
+---
+
+# 📁 Project Structure
 
 ```bash
-Ethara-AI-Team-Task-Manager/
+workspace-manager/
 │
 ├── backend/
 │   ├── prisma/
 │   ├── src/
 │   │   ├── config/
 │   │   ├── controllers/
-│   │   ├── middlewares/
+│   │   ├── middleware/
 │   │   ├── routes/
 │   │   ├── services/
-│   │   ├── utils/
 │   │   ├── validators/
+│   │   ├── helpers/
 │   │   └── server.ts
 │
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   ├── context/
-│   │   ├── layouts/
 │   │   ├── pages/
+│   │   ├── layouts/
+│   │   ├── context/
 │   │   ├── routes/
-│   │   ├── services/
+│   │   ├── api/
 │   │   └── App.tsx
 │
 └── README.md
@@ -159,7 +220,7 @@ Ethara-AI-Team-Task-Manager/
 
 ---
 
-# Environment Variables
+# ⚙️ Environment Configuration
 
 ## Backend `.env`
 
@@ -167,7 +228,7 @@ Ethara-AI-Team-Task-Manager/
 PORT=5000
 NODE_ENV=production
 
-DATABASE_URL=your_neon_database_url
+DATABASE_URL=your_database_url
 
 JWT_SECRET=your_secret_key
 JWT_EXPIRES_IN=7d
@@ -185,12 +246,12 @@ VITE_API_URL=your_backend_url/api
 
 ---
 
-# Installation & Setup
+# 🧪 Local Development Setup
 
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Ethara-AI-Team-Task-Manager.git
+git clone https://github.com/your-username/workspace-manager.git
 ```
 
 ---
@@ -202,20 +263,20 @@ cd backend
 npm install
 ```
 
-### Run Prisma Migration
+### Prisma Setup
 
 ```bash
 npx prisma generate
 npx prisma db push
 ```
 
-### Start Backend
+### Run Backend Server
 
 ```bash
 npm run dev
 ```
 
-Backend runs on:
+Backend Server:
 
 ```bash
 http://localhost:5000
@@ -228,15 +289,10 @@ http://localhost:5000
 ```bash
 cd frontend
 npm install
-```
-
-### Start Frontend
-
-```bash
 npm run dev
 ```
 
-Frontend runs on:
+Frontend Server:
 
 ```bash
 http://localhost:5173
@@ -244,32 +300,32 @@ http://localhost:5173
 
 ---
 
-# Production Deployment
+# ☁️ Deployment
 
-## Frontend Deployment
+## Frontend Hosting
 
-* Railway
+* Railway Deployment
 * Root Directory: `frontend`
 
-## Backend Deployment
+## Backend Hosting
 
-* Railway
+* Railway Deployment
 * Root Directory: `backend`
 
-## Database
+## Database Service
 
 * Neon PostgreSQL
 
 ---
 
-# API Endpoints
+# 🔌 REST API Endpoints
 
 ## Authentication
 
 ```http
-POST /api/auth/signup
-POST /api/auth/login
-GET  /api/auth/me
+POST   /api/auth/signup
+POST   /api/auth/login
+GET    /api/auth/profile
 ```
 
 ---
@@ -277,10 +333,10 @@ GET  /api/auth/me
 ## Projects
 
 ```http
-GET    /api/projects
-POST   /api/projects
-PUT    /api/projects/:id
-DELETE /api/projects/:id
+GET     /api/projects
+POST    /api/projects
+PUT     /api/projects/:id
+DELETE  /api/projects/:id
 ```
 
 ---
@@ -288,47 +344,55 @@ DELETE /api/projects/:id
 ## Tasks
 
 ```http
-GET    /api/tasks
-POST   /api/tasks
-PATCH  /api/tasks/:id/status
-PUT    /api/tasks/:id
-DELETE /api/tasks/:id
+GET      /api/tasks
+POST     /api/tasks
+PATCH    /api/tasks/:id/status
+PUT      /api/tasks/:id
+DELETE   /api/tasks/:id
 ```
 
 ---
 
-# Validation & Security
+# 🔒 Security & Validation
 
-* Zod Request Validation
-* JWT Verification Middleware
-* Protected API Routes
-* Role Authorization Middleware
-* Secure Password Hashing
-* Environment Variable Protection
-
----
-
-# Future Improvements
-
-* Team Invitations
-* File Upload Support
-* Activity Logs
-* Email Notifications
-* Real-Time Collaboration
-* Kanban Board View
-* Search & Filtering Enhancements
+* Zod-based request validation
+* JWT authorization middleware
+* Protected API architecture
+* Role-based access handling
+* Secure password hashing
+* Environment variable protection
+* Structured backend validation flow
 
 ---
 
-# Author
+# 📈 Planned Enhancements
 
-**Supriya Mishra**
-
-GitHub:
-`https://github.com/supriya4748`
+* Team invitation system
+* Real-time collaboration
+* Activity timeline logs
+* Drag-and-drop Kanban board
+* Advanced filtering & search
+* File attachments support
+* Email notifications
+* WebSocket-based live updates
 
 ---
 
-# License
+# 👨‍💻 Developer Focus
 
-This project is developed for educational, portfolio, and assessment purposes.
+This project demonstrates:
+
+* Full-stack application development
+* REST API architecture
+* Secure authentication systems
+* Scalable backend structure
+* Database schema design
+* State management
+* Responsive UI engineering
+* Production deployment workflow
+
+---
+
+# 📄 License
+
+This project was built for learning, portfolio showcase, and technical assessment purposes.
